@@ -395,7 +395,7 @@ plot(app.UIAxes, t, f+app.hs, 'LineWidth', 2);
     methods (Access = public)
 
         % Construct app
-        function app = CEN320phase2
+        function app = FSgenerator
 
             % Create UIFigure and components
             createComponents(app)
